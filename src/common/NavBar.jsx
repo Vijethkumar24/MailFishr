@@ -29,7 +29,7 @@ function NavBar() {
 
             <div className="flex min-w-10 border-2 ">
                 <p className="absolute top-9 left-14 text-4xl">M<span className='text-blue-500'>a</span>ilFi<span className='text-red-500'>s</span>hr</p>
-                <div className="md:hidden mt-7 fixed  right-2 "><Hamburger toggled={isOpen} toggle={setOpen} /></div>
+                <div className="md:hidden mt-7 absolute right-2 "><Hamburger toggled={isOpen} toggle={setOpen} /></div>
             </div>
             <ul className="hidden md:flex mt-10 text-xl w-3/4 ml-auto gap-12 justify-center items-center ">
 
@@ -44,7 +44,7 @@ function NavBar() {
             {/* Mobile menu */}
             {
                 isOpen && (
-                    <ul className="flex md:hidden flex-col mt-24 text-xl w-full justify-around items-center gap-4">
+                    <ul className="flex md:hidden flex-col mt-24 text-xl w-full justify-around items-center gap-4 z-50">
                         {navitems.map((navitem) => (
                             <li key={navitem.id}>{navitem.item}</li>
                         ))}

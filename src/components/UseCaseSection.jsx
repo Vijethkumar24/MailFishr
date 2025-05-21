@@ -57,7 +57,7 @@ function UseCaseSection() {
 
     return (
         <div className="feature_container mt-10 w-3/4 mx-auto">
-            <h2 className="text-center text-3xl font-semibold ">Use Cases</h2>
+            <h2 className="text-center text-3xl font-semibold sm:text-xl">Use Cases</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8 py-6">
                 {useCases.map((feature, index) => (

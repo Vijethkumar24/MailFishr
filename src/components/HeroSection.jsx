@@ -76,7 +76,7 @@ function HeroSection() {
                     <div className="sm:flex hidden  justify-center items-center w-1/3 px-4 py-8">
                         <img
                             src={fishImg}
-                            alt="Fish"
+                            alt="Fishr"
                             className="w-1/2 md:w-full h-full object-contain" />
                     </div>
                 </div>

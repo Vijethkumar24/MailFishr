@@ -54,7 +54,7 @@ function HeroSection() {
             <div className="relative overflow-hidden min-h-[76vh]">
                 <div className="flex flex-col md:flex-row w-[90%] min-h-[75vh] overflow-x-hidden mx-auto">
                     {/* Left Content */}
-                    <div className="flex flex-col justify-center items-start gap-8 px-6 md:pl-16 py-8 w-full">
+                    <div className="flex flex-col justify-center items-start gap-7 px-6 md:pl-16 py-8 w-full">
                         <div>
                             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                                 Catch Only the <br /> Emails That Matter.

@@ -11,7 +11,7 @@ export default function PartnersSection() {
 
     return (
         <div className="relative overflow-hidden bg-white py-12 w-3/4 mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8 py-7">Our Partners</h2>
+            <h2 className="sm:text-2xl text-xl font-bold text-center mb-8 py-7">Our Partners</h2>
 
             {/* Fade edges */}
             <div className="absolute top-0 left-0 h-full w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />

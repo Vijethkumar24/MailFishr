@@ -57,14 +57,14 @@ function UseCaseSection() {
 
     return (
         <div className="feature_container mt-10 w-3/4 mx-auto">
-            <h2 className="text-center text-3xl font-semibold sm:text-xl">Use Cases</h2>
+            <h2 className="text-center  font-semibold sm:text-2xl text-xl">Use Cases</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8 py-6">
                 {useCases.map((feature, index) => (
                     <div
                         key={index}
                         ref={(el) => (cardsRef.current[index] = el)}
-                        className="bg-white border-2 border-gray-300 rounded-2xl shadow-xl hover:shadow-md hover:border-blue-400 transition-all duration-300 p-6 min-h-[250px] flex flex-col justify-start items-start text-gray-800"
+                        className="bg-white border-2 border-gray-300 rounded-2xl shadow-xl hover:shadow-md hover:border-blue-400 transition-all duration-300 p-6 min-h-[200x] flex flex-col justify-start items-start text-gray-800"
                     >
                         {feature.icon}
                         <h3 className="text-xl font-semibold mb-2 text-blue-700">{feature.title}</h3>

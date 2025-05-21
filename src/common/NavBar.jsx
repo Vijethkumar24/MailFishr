@@ -44,7 +44,7 @@ function NavBar() {
             {/* Mobile menu */}
             {
                 isOpen && (
-                    <ul className="flex md:hidden flex-col mt-24 text-xl w-full justify-around items-center gap-4 z-50">
+                    <ul className="flex md:hidden flex-col mt-24 text-xl w-full justify-around items-center gap-4 z-50 min-h-[300px] mb-4">
                         {navitems.map((navitem) => (
                             <li key={navitem.id}>{navitem.item}</li>
                         ))}

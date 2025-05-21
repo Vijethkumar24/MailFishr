@@ -77,7 +77,7 @@ function FeatureSection() {
 
     return (
         <div className="feature_container mt-36 w-3/4 mx-auto">
-            <h2 className="text-center text-3xl font-semibold ">Our Features</h2>
+            <h2 className="text-center sm:text-2xl text-xl font-semibold ">Our Features</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8 py-6">
                 {features.map((feature, index) => (

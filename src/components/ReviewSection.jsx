@@ -26,7 +26,7 @@ export default function ReviewSection() {
 
     return (
         <div className="relative overflow-hidden py-12 bg-white w-3/4 mx-auto">
-            <h2 className="text-center text-3xl sm:text-xl font-semibold mb-8">Happy Customers</h2>
+            <h2 className="text-center sm:text-2xl text-xl font-semibold mb-8">Happy Customers</h2>
 
             {/* Edge Fades */}
             <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-white to-transparent z-10" />

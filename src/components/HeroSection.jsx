@@ -71,7 +71,7 @@ function HeroSection() {
                             <button className="w-32 h-12 bg-blue-200 rounded-md text-gray-500">Demo</button>
                         </div>
                     </div>
-
+                    {/*y*/}
                     {/* Right Image */}
                     <div className="hidden sm:flex justify-center items-center w-1/3 px-4 py-7">
                         <img

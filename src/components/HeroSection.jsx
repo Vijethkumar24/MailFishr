@@ -73,7 +73,7 @@ function HeroSection() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="hidden sm:flex justify-center items-center w-1/3 px-4 py-8">
+                    <div className="hidden sm:flex justify-center items-center w-1/3 px-4 py-7">
                         <img
                             src={fishImg}
                             alt="Fish"

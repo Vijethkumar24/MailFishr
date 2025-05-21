@@ -51,7 +51,7 @@ function HeroSection() {
     };
     return (
         <>
-            <div className="relative overflow-hidden min-h-[75vh]">
+            <div className="relative overflow-hidden min-h-[76vh]">
                 <div className="flex flex-col md:flex-row w-[90%] min-h-[75vh] overflow-x-hidden mx-auto">
                     {/* Left Content */}
                     <div className="flex flex-col justify-center items-start gap-8 px-6 md:pl-16 py-8 w-full">
